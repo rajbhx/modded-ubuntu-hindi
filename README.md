@@ -12,22 +12,22 @@
 <img src="https://img.shields.io/github/issues/modded-ubuntu/modded-ubuntu?color=red&style=flat-square">
 <img src="https://img.shields.io/github/forks/modded-ubuntu/modded-ubuntu?color=teal&style=flat-square">
 </p>
-<p align="center"><b>Run Ubuntu GUI on your termux with much features.</b></p>
+<p align="center"><b>अपने टर्मक्स पर अधिक सुविधाओं के साथ उबंटू जीयूआई चलाएं।</b></p>
 
-### Features
+### विशेषताएँ😳
 
-- Fixed Audio Output
-- Lightweight {Requires at least 4GB Storage}
-- Katoolin3 tool for installing kali tools
-- 2 Browsers (Chromium & Mozilla Firefox)
-- Supports Bangla Fonts
-- VLC Media Player and MPV media player
-- Visual Studio Code (buggy on arm )
-- Sublime Text Editor (only for arm64/aarch64)
-- Easy for Beginners
-- Comes with some cool themes.
+ - फिक्स्ड ऑडियो आउटपुट
+ - लाइटवेट {कम से कम 4GB स्टोरेज की आवश्यकता है}
+ - काली उपकरण स्थापित करने के लिए Katoolin3 उपकरण
+ - 2 ब्राउज़र (क्रोमियम और मोज़िला फ़ायरफ़ॉक्स)
+ - बांग्ला फ़ॉन्ट्स का समर्थन करता है
+ - वीएलसी मीडिया प्लेयर और एमपीवी मीडिया प्लेयर
+ - विजुअल स्टूडियो कोड (हाथ पर छोटी गाड़ी)
+ - उदात्त पाठ संपादक (केवल arm64/aarch64 के लिए)
+ - शुरुआती के लिए आसान
+ - कुछ शांत विषयों के साथ आता है।
 
-### Installation
+### इंस्टालेशन⛏️
 - Firstly install [Termux](https://termux.com) apk from [HERE](https://f-droid.org/repo/com.termux_118.apk)
 - Secondly Clone the Repository & Run the setup File
 
@@ -37,33 +37,30 @@
   - `cd modded-ubuntu`
   - `bash setup.sh`
 
-- Then Restart your Termux & Type the following commands
-
+- फिर अपने टर्मक्स को पुनरारंभ करें और निम्न आदेश टाइप करें
   - `ubuntu`
   - `bash user.sh`
 
-- Type your ubuntu root username. Must be lowercase & no space included.
+- अपना ubuntu रूट यूजरनेम टाइप करें।  लोअरकेस होना चाहिए और कोई स्थान शामिल नहीं होना चाहिए।
 
-- Then Again Restart your Termux & Type the following commands
-
+ - फिर अपने टर्मक्स को फिर से शुरू करें और निम्न कमांड टाइप करें
   - `ubuntu`
   - `bash gui.sh`
 
-- **You have to note your VNC password !!**
+- **आपको अपना वीएनसी पासवर्ड नोट करना होगा !!**
 
-- Ubuntu image is now successfully installed .
+- Ubuntu image अब सफलतापूर्वक स्थापित किया गया है।
 
   - Type `vncstart` to run Vncserver
   - Type `vncstop` to stop Vncserver
 
 - Install VNC VIEWER Apk on your Device. [Google Play Store](https://play.google.com/store/apps/details?id=com.realvnc.viewer.android&hl=en)
 
-- Open VNC VIEWER & Click on + Button & Enter the Address `localhost:1` & Name anything you like
-- Set the Picture Quality to High for better Quality
-- Click on Connect & Input the Password 
-- Enjoy :D
-
-### NOTE :
+- VNC व्यूअर खोलें और + बटन पर क्लिक करें और पता दर्ज करें `localhost:1` और अपनी पसंद की किसी भी चीज़ को नाम दें
+ - बेहतर क्वालिटी के लिए पिक्चर क्वालिटी को हाई पर सेट करें
+ - Connect and Input the Password पर क्लिक करें
+ - आनंद लें:👍
+### NOTE :⚠️
 
 - **Type `ubuntu` to run Ubuntu CLI.**
 - **Type `vncstart` to run Vncserver**
